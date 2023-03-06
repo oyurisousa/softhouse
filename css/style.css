@@ -87,7 +87,7 @@ nav.menu-mob{
     margin-top: 10px;
 }
 
-
+/*sessõa 1*/
 
 section.sessao1{
     width: 100%;
@@ -96,7 +96,8 @@ section.sessao1{
     height: 400px;
 }
 section.sessao1 .container{
-    max-width: 800px;
+    max-width: 1000px;
+    height: calc(100% + 30px);
 }
 .text-sessao1{
     float: left;
@@ -143,12 +144,124 @@ section.sessao1 .container{
     float: left;
     width: 50%;
     font-size: 13px;
-    height: 430px;
+    height: 400px;
     position: relative;
-    top: -30px;
+    top: -40px;
+    height: 100%;
     background-image: var(--bgDevice);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+
+.sessao2 .container{
+    padding-top: 60px;
+    background-color: white;
+    text-align: center;
+}
+.sessao2 h2{
+    color: #472663;
+    font-weight: 300;
+}
+.sessao2 p{
+    margin-top: 30px;
+    max-width: 900px;
+    display: inline-block;
+}
+.sessao2 img{
+    width: 1005;
+    margin-top: 40px;
+    position: relative;
+    top: 100px;
+}
+
+
+/*Sessao 3*/
+
+.sessao3{
+    width: 100%;
+}
+
+.part1{
+    float: left;
+    width: 50%;
+    padding: 140px 0 90px 0;
+    background-color: #835fa7;
+    color: white;
+}
+.wraper-part1{
+    max-width: 400px;
+    float: right;
+    padding-right: 30px;
+}
+.part1 h2{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 23px;
+}
+.part1 p{
+    font-size: 15px;
+    line-height: 35px;
+    margin-top: 10px;
+}
+
+.part2{
+    float: left;
+    width: 50%;
+    padding: 140px 0 90px 0;
+}
+.titulo-autor{
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1px solid red;
+
+}
+.titulo-autor h2{
+    float: left;
+    padding-right: 20px;    
+}
+.img-autor{
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    border-radius: 50%;
+    position: relative;
+    top: -1px;
+    
+
+}
+.sobre-autor{
+    float:left; 
+    max-width: 600px;
+    padding-left: 30px;
+}
+.titulo-autor h2{
+    font-weight: 300;
+    line-height: 40px;
+}
+div.texto-autor p{
+    font-weight: 400;
+    font-size: 14px;
+    max-width: 450px;
+}
+.slider-bullets{
+    width: 100%;
+    float: left;
+    padding-left: 30px;
+    margin-top: 8px;
+}
+.slider-bullets span{
+    float: left;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+    background-color: rgb(176, 160, 181);
+}
+span.bullet-active{
+    background-color: rgb(117, 84, 126);
 }
 
 @media screen and (max-width: 768px){
@@ -171,11 +284,13 @@ section.sessao1 .container{
 
 
     .chamada1{
-        max-width: none;
+        max-width: 500px;
         width: 100%;
         text-align: center;
         float: none;
-        margin: 0;
+        margin: 0 auto;
+        margin-top: 100px;
+        border: 1px solid red;
     
     }
     
@@ -184,6 +299,7 @@ section.sessao1 .container{
         padding: 0 10px;
         color: var(--textColor);
         font-weight: 300;
+        
         
     }
     .chamada1 p{
