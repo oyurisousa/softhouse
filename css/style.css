@@ -36,49 +36,17 @@ header nav{
 }
 
 nav.mobile-menu{
-	cursor: pointer;
-	width: 32px;
-	height: 32px;
-	background-image: url("../assets/menu-mobile.png");
-	background-size: 100% 100%;
-	border: 1px solid red;
-}
-
-
-
-nav.mobile-menu ul{
-	transition: 3s;
 	display: none;
-	background-color: white;
-	position: absolute;
-	width: 100%;
-	left: 0;
-	top: 80px;
-	list-style-type: none;
-	text-align: center;
 }
-
-nav.mobile-menu ul li{
-	transition: 1s;
-	padding:8px 0;
-	
-	border-bottom: 1px solid black;
-}
-
-nav.mobile-menu ul li:hover{
-	background-color: rgb(230,230,230);
-}
-
-nav.mobile-menu ul li a{
-	color: black;
-	text-decoration: none;
-}
-
 header .logo{
 	float: left;
 	width: 160px;
 	height: 40px;
 	background-color: #ccc;
+	font-size: 20px;
+	line-height: 40px;
+	font-weight: bold;
+	text-align: center;
 }
 
 header nav.desktop-menu ul{
@@ -168,6 +136,10 @@ section.sessao1 .container{
 	line-height: 44px;
 	border-radius: 30px;
 }
+.btn1-texto:hover{
+	transition: 1s;
+	background-color: #ce4e20;
+}
 
 .device-sessao1{
 	float: left;
@@ -199,6 +171,7 @@ section.sessao1 .container{
 .sessao2 p{
 	margin-top:30px;
 	max-width: 900px;
+	color: rgb(26, 24, 27);
 	display:inline-block;
 }
 
@@ -373,7 +346,10 @@ section.sessao4{
 	margin-top:15px;
 	border-radius: 30px;
 }
-
+.form form input[type=submit]:hover{
+	transition: 1s;
+	background-color: #ce4e20;
+}
 .map-wraper{
 	float: left;
 	width: 50%;
@@ -459,7 +435,47 @@ nav.desktop-menu{
 
 nav.mobile-menu{
 	display: block;
+	cursor: pointer;
+	width: 32px;
+	height: 32px;
+	background-image: url("../assets/menu-mobile.png");
+	background-size: 100% 100%;
 }
+
+
+
+nav.mobile-menu ul{
+	transition: 3s;
+	display: none;
+	background-color: white;
+	position: absolute;
+	margin: 15px 0;
+	width: 100%;
+	left: 0;
+	top: 80px;
+	list-style-type: none;
+	text-align: center;
+}
+
+nav.mobile-menu ul li{
+	transition: 1s;
+	padding:8px 0;
+	
+	border-bottom: 1px solid black;
+}
+
+nav.mobile-menu ul li:hover{
+	background-color: rgb(230,230,230);
+}
+
+nav.mobile-menu ul li a{
+	color: black;
+	text-decoration: none;
+}
+div.chamada1 h2{
+	margin-top: 10px;
+}
+
 
 
 section.sessao1{
